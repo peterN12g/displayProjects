@@ -7,10 +7,7 @@
     <h1>
         Peter Nguyen | LSU | May 2022 - May 2026
     </h1>
-    <p class = 'Intro'>
-        I'm an aspiring Software Engineer majoring in Computer Science.
-    </p>
-
+    <img src="lsu.png" alt="LSU Image" class="center">
 </main>
 
 
@@ -19,12 +16,11 @@
     h1{
         text-align: center;
     }
-        p.Intro {
-            text-align: center;
-    }
-    p{
-        text-align: center;
-        font-size: 1.5em;
+    .center{
+        display: block;
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
     }
     .nav{
         overflow: hidden;
