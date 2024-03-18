@@ -17,6 +17,7 @@
         display: flex;
         flex-wrap: wrap;
         gap: 20px;
+        width: auto;
         justify-content: center;
         overflow: hidden;
         background-color: black;
