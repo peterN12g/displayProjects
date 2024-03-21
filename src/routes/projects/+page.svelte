@@ -14,6 +14,15 @@
     <div class='display'>
         <div class='article-container'>
             <article>
+                <header>AniFinder</header>
+                <p>
+                    AniFinder is an AI powered Anime generator based on the user's preferences. The generator is powered by  google's AI, gemini pro.
+                    The prompts include an anime genre and reference anime to generate a similar anime the user may enjoy.
+                </p>
+                <footer>
+                    <a href="https://github.com/peterN12g/anime" target="_blank">GitHub</a>
+                    <a href="https://anifinder.pages.dev/" target="_blank">Hosted Site</a>
+                </footer>
                 <header>Warmup Calculator</header>
                 <p>
                     A simple weightlifting warmup calculator to help lifters work up to their personal best attempt safely.
