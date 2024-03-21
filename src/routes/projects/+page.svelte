@@ -23,6 +23,8 @@
                     <a href="https://github.com/peterN12g/anime" target="_blank">GitHub</a>
                     <a href="https://anifinder.pages.dev/" target="_blank">Hosted Site</a>
                 </footer>
+            </article>
+            <article>
                 <header>Warmup Calculator</header>
                 <p>
                     A simple weightlifting warmup calculator to help lifters work up to their personal best attempt safely.
