@@ -5,7 +5,7 @@
         <a href="about">About Me</a>
     </div>
     <h1>
-        Peter Nguyen | LSU | May 2022 - May 2026
+        Peter Nguyen | LSU | August 2022 - May 2026
     </h1>
     <img src="lsu.png" alt="LSU Image" class="center">
 </main>
