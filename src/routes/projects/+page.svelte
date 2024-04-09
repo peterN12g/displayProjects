@@ -1,7 +1,3 @@
-<script>
-    import './styles.css'
-</script>
-
 <main>
     <div class="nav">
         <a href="/">Home</a>
