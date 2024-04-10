@@ -45,9 +45,8 @@
             <article>
                 <header>Nutrition Tracker</header>
                 <p>
-                    The nutrition tracker provides users the ability to calculate their basal metabolic rate (BMR) and lose weight with the calorie tracker.
-                    Information about meals are API returned. Users have the ability to add specific foods, which then subtract the provided macronutrients from
-                    their daily goals. 
+                    The nutrition tracker provides users the ability to calculate their basal metabolic rate (BMR) and lose weight with the calorie tracker. 
+                    Information about meals is API returned. Users can add specific foods, which then subtract the provided macronutrients from their daily goals. 
                 </p>
                 <footer>
                     <a href="https://github.com/peterN12g/nutritiontrack" target="_blank">GitHub</a>
