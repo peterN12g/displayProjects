@@ -24,7 +24,7 @@
                 <header>Warmup Calculator</header>
                 <p>
                     A simple weightlifting warmup calculator to help lifters work up to their personal best attempt safely.
-                    The calculator works seemlessly on mobile as a Progressive Web App (PWA) for user convenience.
+                    The calculator works seamlessly on mobile as a Progressive Web App (PWA) for user convenience.
                 </p>
                 <footer>
                     <a href="https://github.com/peterN12g/warmupCalc" target="_blank">GitHub</a>

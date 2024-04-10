@@ -7,6 +7,7 @@
     <h1>
         Peter Nguyen | LSU | August 2022 - May 2026
     </h1>
+    <!-- svelte-ignore a11y-img-redundant-alt -->
     <img src="lsu.png" alt="LSU Image" class="center">
 </main>
 
