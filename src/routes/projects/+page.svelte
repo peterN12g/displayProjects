@@ -35,7 +35,7 @@
                 <header>GymShark Scraper</header>
                 <p>
                     A python web scraper focused on GymShark products. When the price of specified products falls below a certain threshold,
-                    an IOS push notification is sent. The site is hoted on AWS Lambda and uses CloudWatch to run the code every 30 minutes. 
+                    an IOS push notification is sent. The code is hosted on AWS Lambda and uses CloudWatch to run the code every 30 minutes. 
                 </p>
                 <footer>
                     <a href="https://github.com/peterN12g/GymShark-Scraper" target="_blank">GitHub</a>
