@@ -34,11 +34,14 @@
             <article>
                 <header>GymShark Scraper</header>
                 <p>
-                    A python web scraper focused on GymShark products. When the price of specified products falls below a certain threshold,
-                    an IOS push notification is sent. The code is hosted on AWS Lambda and uses CloudWatch to run the code every 30 minutes. 
+                    a Python-based web scraper focused on GymShark products. The server is hosted using Python Flask,
+                    with Caddy used to reverse proxy over HTTPS. The backend Python server provides data via an API endpoint.
+                    The frontend, built with React, displays the information on a webpage and includes a Progressive Web App
+                    (PWA) that sends browser notifications through a service worker.  
                 </p>
                 <footer>
                     <a href="https://github.com/peterN12g/GymShark-Scraper" target="_blank">GitHub</a>
+                    <a href="https://gymshark-scraper.peternguyen.tech/" target="_blank">Hosted Site</a>
                     <a href="https://ibb.co/17tppmR" target="_blank">Example IOS Notification</a>
                 </footer>
             </article>
