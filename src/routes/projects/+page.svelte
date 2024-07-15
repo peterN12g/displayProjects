@@ -23,7 +23,7 @@
                 </p>
                 <footer>
                     <a href="https://github.com/peterN12g/anime" class="github" target="_blank"><i class="bi bi-github" style="font-size: 30px;"></i></a>
-                    <a href="https://anifinder.pages.dev/" target="_blank"><i class="bi bi-browser-chrome" style="font-size: 30px;"></i></a>
+                    <a href="https://anifinder.peternguyen.tech/" target="_blank"><i class="bi bi-browser-chrome" style="font-size: 30px;"></i></a>
                 </footer>
             </article>
             <article>
@@ -61,7 +61,7 @@
                 </p>
                 <footer>
                     <a href="https://github.com/peterN12g/warmupCalc" target="_blank"><i class="bi bi-github" style="font-size: 30px;"></i></a>
-                    <a href="https://warmup.pages.dev/" target="_blank"><i class="bi bi-browser-chrome" style="font-size: 30px;"></i></a>
+                    <a href="warmup.peternguyen.tech" target="_blank"><i class="bi bi-browser-chrome" style="font-size: 30px;"></i></a>
                 </footer>
             </article>
             <article>
