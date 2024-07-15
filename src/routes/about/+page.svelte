@@ -10,12 +10,14 @@
         <a href="projects">My Projects</a>
         <a href="about">About Me</a>
     </div>
-    <h1>About me</h1>
-    <p class = 'Intro'>
-        I'm Peter, an aspiring Software Engineer at LSU. I graduate in May 2026 with a B.S in Computer Science. In my free time I powerlift
-        with friends. During this time I also relax and rest my mind. I began programming with Java, though I've become accustomed to HTML/CSS, JavaScript,
-        and Python, which is my current preferred coding language. That's it about me for now, take time to take a look at my resume or projects!
-    </p>
+    <div>
+        <h1>About me</h1>
+        <p class = 'Intro'>
+            I'm Peter, an aspiring Software Engineer at LSU. I graduate in May 2026 with a B.S in Computer Science. In my free time I powerlift
+            with friends. During this time I also relax and rest my mind. I began programming with Java, though I've become accustomed to HTML/CSS, JavaScript,
+            and Python, which is my current preferred coding language. That's it about me for now, take time to take a look at my resume or projects!
+        </p>
+    </div>
     <div class="center">
         <button class='resume-button' on:click={openResume}>View my Resume</button>
     </div>
