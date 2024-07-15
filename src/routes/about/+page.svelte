@@ -20,13 +20,16 @@
             and Python, which is my current preferred coding language. That's it about me for now, take time to take a look at my resume or projects to see 
             what I've been working on.
         </p>
-        <button class="button-28" on:click={openResume}>Resume</button>
+        <div class="buttons">
+            <button class="button-28" on:click={openResume}>Resume</button>
+            <a href="https://github.com/peterN12g" class="github" target="_blank"><i class="bi bi-github" style="font-size: 50px;"></i></a>
+        </div>
     </div>
 </div>
     <div class="flex-child">
     <div>
         <!-- svelte-ignore a11y-img-redundant-alt -->
-        <img src="IMG_9245.jpg" alt="Personal Image" class="personal_img">
+        <img src="IMG_9245.png" alt="Personal Image" class="personal_img">
     </div>
 </div>
 </div>
@@ -86,7 +89,7 @@
         user-select: none;
         -webkit-user-select: none;
         touch-action: manipulation;
-        width: 100%;
+        width: 30%;
         will-change: transform;
         font: bold;
     } 
@@ -116,5 +119,11 @@
     .personal_img {
         width: 40%;
         margin-left: 30%;
+    }
+    .buttons {
+        display: flex;
+    }
+    .github {
+        margin-left: 20px;
     }
 </style>
