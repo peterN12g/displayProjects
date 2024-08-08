@@ -145,7 +145,5 @@
     header{
         text-align: center;
     }
-    a{
-        padding: 15px;
-    }
+
 </style>
