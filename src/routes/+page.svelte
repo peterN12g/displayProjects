@@ -143,7 +143,7 @@
                               </footer>
                             </div>
                             <div class="right-article col-12 col-md-6">
-                              <!-- Add image if necessary -->
+                              <img src='nutrition.jpg' alt='nutrition'>
                             </div>
                           </article>
                         </div>
@@ -169,8 +169,39 @@
                             That's it about me for now, take time to take a look at my resume or projects to see what I've been working on.
                             </p>
                         </article>
-                        <article class='about_container'>
-                        </article>
+<article class='about_container'>
+  <div class='tabs'>
+    <div class='tab-4'>
+      <label for='tab4-1'>One</label>
+      <input id='tab4-1' name='tabs' type='radio' checked='checked'>
+      <div>
+        <p>Tab1 Test</p>
+      </div>
+    </div>
+    <div class='tab-4'>
+      <label for='tab4-2'>Two</label>
+      <input id='tab4-2' name='tabs' type='radio'>
+      <div>
+        <p>Tab2 Test</p>
+      </div>
+    </div>
+    <div class='tab-4'>
+      <label for='tab4-3'>Three</label>
+      <input id='tab4-3' name='tabs' type='radio'>
+      <div>
+        <p>Tab3 Test</p>
+      </div>
+    </div>
+    <div class='tab-4'>
+      <label for='tab4-4'>Four</label>
+      <input id='tab4-4' name='tabs' type='radio'>
+      <div>
+        <p>Tab4 Test</p>
+      </div>
+    </div>
+  </div>
+</article>
+
                     </div>
                 </div>
             </div>
@@ -184,125 +215,207 @@
   
 <style>
 /*NAVBAR*/
+
 .navbar {
-background-color: var(--color-base);
+  background-color: var(--color-base);
 }
 .navbar .nav-link {
-font-weight: 700;
-text-transform: uppercase;
-color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
 }
 .navbar .nav-link:hover {
-color: var(--color-brand);
+  color: var(--color-brand);
 }
-@media (min-width: 992px) {
+  @media (min-width: 992px) {
 .navbar {
-    min-height: 100vh;
-    width: var(--sidbar-width);
-    background: linear-gradient(rgba(3, 63, 71, 0.8), rgba(3, 63, 71, 0.8)),
-    url(/sidebar-img.png);
-    background-size: cover;
-    background-position: center;
+  min-height: 100vh;
+  width: var(--sidbar-width);
+  background: linear-gradient(rgba(3, 63, 71, 0.8), rgba(3, 63, 71, 0.8)),
+  url(/sidebar-img.png);
+  background-size: cover;
+  background-position: center;
 }
 }
 .navbar-brand img {
-border: 8px solid var(--color-body);
+  border: 8px solid var(--color-body);
 }
 .home-img {
-width: 90%;
-margin-left: 5%;
+  width: 90%;
+  margin-left: 5%;
 }
 /*Content Record*/
 #content-wrapper {
-padding-left: var(--sidbar-width);
+  padding-left: var(--sidbar-width);
 }
 /*BTN*/
 .btn {
-padding: 12px 28px;
-font-weight: 700;
+  padding: 12px 28px;
+  font-weight: 700;
 }
 .btn-brand {
-background-color: var(--color-brand);
-border-color: var(--color-brand);
-color: var(--color-base);
+  background-color: var(--color-brand);
+  border-color: var(--color-brand);
+  color: var(--color-base);
 }
-.btn-brand:hover,
-.btn-brand:focus {
-background-color: var(--color-brand2);
-color: var(--color-base);
-border-color: var(--color-brand);
+.btn-brand:hover, .btn-brand:focus {
+  background-color: var(--color-brand2);
+  color: var(--color-base);
+  border-color: var(--color-brand);
 }
 .email-link {
-font-weight: 700;
-position: relative;
+  font-weight: 700;
+  position: relative;
 }
 .email-link::after {
-content: "";
-width: 0;
-height: 2px;
-background-color: var(--color-brand);
-position: absolute;
-left: 0;
-top: 110%;
-transform: all 0.4s;
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: var(--color-brand);
+  position: absolute;
+  left: 0;
+  top: 110%;
+  transform: all 0.4s;
 }
 .email-link:hover::after {
-width: 100%;
+  width: 100%;
 }
 /*PROJECTS*/
 article {
-flex: auto;
-min-height: 200px;
-border-radius: 15px;
-padding: 50px;
-text-align: center;
-border: 1px solid black;
-display: flex;
-flex-direction: column;
-background-color: #343a40;
-margin-top: 20px;
+  flex: auto;
+  min-height: 200px;
+  border-radius: 15px;
+  padding: 50px;
+  text-align: center;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  background-color: #343a40;
+  margin-top: 20px;
 }
 .article-container {
-display: flex;
-flex-wrap: wrap;
-gap: 10px;
-justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
 }
 article header {
-font-size: 30px;
+  font-size: 30px;
 }
 article p {
-flex: 1;
+  flex: 1;
 }
 article footer {
-display: flex;
+  display: flex;
 }
 article a {
-color: inherit;
-padding: 8px;
+  color: inherit;
+  padding: 8px;
 }
 .right-article img {
-max-width: 100%;
-height: auto; /* Maintain aspect ratio */
+  max-width: 100%;
+  height: auto; /* Maintain aspect ratio */
 }
 .article-img {
-border-radius: 15px;
+  border-radius: 15px;
 }
 .about_image {
-    border-radius: 15px;
+  border-radius: 15px;
 }
 .about_container {
-    width: 50%;
-    font-size: 1.1em;
-    padding: 10px;
-    margin-left: 10px;
-    height: 100%;
+  width: 50%;
+  font-size: 1.1em;
+  padding: 10px;
+  margin-left: 10px;
+  height: 100%;
 }
 .articles {
-    flex-direction: row;
-    display: flex;
+  flex-direction: row;
+  display: flex;
 }
-swiper-container {
-    width: 100%;
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  overflow: hidden; 
 }
+
+.tabs [class^="tab"] label, .tabs [class*=" tab"] label {
+  color: #efedef;
+  cursor: pointer;
+  display: block;
+  font-size: 1.1em;
+  font-weight: 300;
+  line-height: 1em;
+  padding: 2rem 0;
+  text-align: center; 
+}
+
+.tabs [class^="tab"] [type="radio"], .tabs [class*=" tab"] [type="radio"] {
+  border-bottom: 1px solid rgba(239, 237, 239, 0.5);
+  cursor: pointer;
+  appearance: none;
+  display: block;
+  width: 100%;
+  transition: all 0.3s ease-in-out; 
+}
+
+.tabs [class^="tab"] [type="radio"]:hover, .tabs [class*=" tab"] [type="radio"]:hover, 
+.tabs [class^="tab"] [type="radio"]:focus, .tabs [class*=" tab"] [type="radio"]:focus {
+  border-bottom: 1px solid #fd264f; 
+}
+
+.tabs [class^="tab"] [type="radio"]:checked, .tabs [class*=" tab"] [type="radio"]:checked {
+  border-bottom: 2px solid #fd264f; 
+}
+
+.tabs [class^="tab"] [type="radio"]:checked + div, .tabs [class*=" tab"] [type="radio"]:checked + div {
+  opacity: 1; 
+}
+
+.tabs [class^="tab"] [type="radio"] + div, .tabs [class*=" tab"] [type="radio"] + div {
+  display: block;
+  opacity: 0;
+  padding: 2rem 0;
+  width: 100%;
+  transition: all 0.3s ease-in-out; 
+}
+
+.tabs .tab-4 {
+  width: 25%; 
+}
+
+.tabs .tab-4 [type="radio"] + div {
+  width: 400%; 
+  margin-left: 400%; 
+}
+
+.tabs .tab-4 [type="radio"]:checked + div {
+  margin-left: 0; 
+}
+
+.tabs .tab-4:nth-child(2) [type="radio"] + div {
+  margin-left: -300%; 
+}
+
+.tabs .tab-4:nth-child(2) [type="radio"]:checked + div {
+  margin-left: -100%; 
+}
+
+.tabs .tab-4:nth-child(3) [type="radio"] + div {
+  margin-left: -200%; 
+}
+
+.tabs .tab-4:nth-child(3) [type="radio"]:checked + div {
+  margin-left: -200%; 
+}
+
+.tabs .tab-4:nth-child(4) [type="radio"] + div {
+  margin-left: -100%; 
+}
+
+.tabs .tab-4:nth-child(4) [type="radio"]:checked + div {
+  margin-left: -300%;
+}
+
 </style>
