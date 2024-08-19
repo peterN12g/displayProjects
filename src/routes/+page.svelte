@@ -44,7 +44,7 @@
             </p>
             <a href='#projects' class='btn btn-brand me-3'>Explore my Projects</a>
             <!-- svelte-ignore a11y-missing-attribute -->
-            <a class='email-link'>Contact: peternguyensmhs@gmail.com</a>
+            <a class='email-link'>Contact: pngu123@lsu.edu</a>
           </div>
         </div>
       </div>
@@ -381,6 +381,9 @@
   }
   #home {
     text-align: center;
+  }
+  #projects,#about,#experience {
+    align-items: center;
   }
 }
 .navbar-brand img {
