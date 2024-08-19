@@ -359,15 +359,29 @@
 .navbar .nav-link:hover {
   color: var(--color-brand);
 }
-  @media (min-width: 992px) {
-.navbar {
-  min-height: 100vh;
-  width: var(--sidbar-width);
-  background: linear-gradient(rgba(3, 63, 71, 0.8), rgba(3, 63, 71, 0.8)),
-  url(/sidebar-img.png);
-  background-size: cover;
-  background-position: center;
+@media (min-width: 992px) {
+  .navbar {
+    min-height: 100vh;
+    width: var(--sidbar-width);
+    background: linear-gradient(rgba(3, 63, 71, 0.8), rgba(3, 63, 71, 0.8)),
+    url(/sidebar-img.png);
+    background-size: cover;
+    background-position: center;
+  }
+  /**Add left padding on larger screens*/
+  #content-wrapper {
+  padding-left: var(--sidbar-width);
+  }
 }
+@media (max-width: 991.98px) {
+  #content-wrapper {
+    padding-left: 0;
+    margin-left: 0;
+    width: 100%;
+  }
+  #home {
+    text-align: center;
+  }
 }
 .navbar-brand img {
   border: 8px solid var(--color-body);
@@ -375,10 +389,6 @@
 .home-img {
   width: 90%;
   margin-left: 5%;
-}
-/*Content Record*/
-#content-wrapper {
-  padding-left: var(--sidbar-width);
 }
 /*BTN*/
 .btn {
