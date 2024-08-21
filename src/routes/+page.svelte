@@ -42,9 +42,11 @@
             <p class='lead mt-2 mb-4'>
               I am Peter, an aspiring Software Engineer at LSU graduating in May 2026.
             </p>
-            <a href='#projects' class='btn btn-brand me-3'>Explore my Projects</a>
-            <!-- svelte-ignore a11y-missing-attribute -->
-            <a class='email-link'>Contact: pngu123@lsu.edu</a>
+            <p class='intro-flex'>
+              <a href='#projects' class='btn btn-brand me-3'>Explore my Projects</a>
+              <!-- svelte-ignore a11y-missing-attribute -->
+              <a class='email-link'>Contact: pngu123@lsu.edu</a>
+            </p>
           </div>
         </div>
       </div>
@@ -163,7 +165,7 @@
           <h1>About me:</h1>
           <img class='about_image' src='fishing.jpg' alt='fishing'>
           <div data-aos='fade-up-right' class='articles'>
-            <article class='about_container'>
+            <article class='about_container' id='about_container_1'>
               <p style='margin-top: 20px; margin-left:10px; margin-right:10px; font-size: 1.2rem;'>I'm Peter, an aspiring Software Engineer at 
                 LSU. I graduate in May 2026 with a B.S in Computer Science. In my free time I powerlift with friends, go fishing at grand isle, 
                 and program to relax my mind. I began programming with Java, though I've become accustomed to HTML/CSS, JavaScript, and Python, 
@@ -565,6 +567,43 @@ article a {
 .tab-4 img {
   padding: 15px;
   width: 30%;
+}
+@media (max-width: 1245px) {
+  .about_container {
+    font-size: 0.8em;
+  }
+  #about_container_1 {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 1090px) {
+  .about_container {
+    font-size: 0.6em;
+  }
+  #about_container_1 {
+    font-size: 0.1rem;
+  }
+}
+@media (max-width: 768px) {
+  .about_container {
+    font-size: 0.5em;
+  }
+}
+@media (max-width: 488px) {
+  .about_container {
+    font-size: 0.4em;
+  }
+}
+@media (max-width: 439px) {
+  .intro-flex {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 413px) {
+  .about_container {
+    font-size: 0.3em;
+  }
 }
 .contact-me {
   text-align:center; 
