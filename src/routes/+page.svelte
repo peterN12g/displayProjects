@@ -35,7 +35,7 @@
     <section id='home' class='full-height px-lg-5'>
       <div class='row'>
         <div class='col-lg-8'>
-          <div data-aos='fade-up' data-aos-delay='300'>
+          <div>
             <h1 class='display-4 fw-bold'>
               I'm a <span class='text-brand'>Software Engineer</span> from Baton Rouge, Louisiana
             </h1>
@@ -57,12 +57,12 @@
       <div>
         <div class='container'>
           <div class='row'>
-            <div data-aos='fade-right'>
+            <div>
               <h6 class='header-text'>PROJECTS</h6>
                 <h1>My Projects:</h1>
                 <div class='display'>
                   <div class='article-container'>    
-                    <div data-aos='fade-right'>
+                    <div>
                       <article class='project-card d-flex flex-column flex-md-row align-items-center'>
                         <div class='left-article col-12 col-md-6'>
                           <header>AniFinder</header>
@@ -83,7 +83,7 @@
                         </div>
                       </article>
                     </div>  
-                    <div data-aos='fade-right'>
+                    <div>
                       <article class='project-card d-flex flex-column flex-md-row align-items-center'>
                         <div class='left-article col-12 col-md-6'>
                           <header>GymShark Scraper</header>
@@ -107,7 +107,7 @@
                       </article>
                       </div>
 
-                      <div data-aos='fade-right'>
+                      <div>
                         <article class='project-card d-flex flex-column flex-md-row align-items-center'>
                           <div class='left-article col-12 col-md-6'>
                             <header>Warmup Calculator</header>
@@ -129,7 +129,7 @@
                         </article>
                       </div>
         
-                      <div data-aos='fade-right'>
+                      <div>
                         <article class='project-card d-flex flex-column flex-md-row align-items-center ng-star-inserted'>
                           <div class='left-article col-12 col-md-6'>
                             <header>Nutrition Tracker</header>
@@ -160,11 +160,11 @@
     <!--ABOUT-->
     <section id='about' class='full-height px-lg-5'>
       <div class='container'>
-        <div data-aos='fade-up-right' class='row'>
+        <div class='row'>
           <h6 class='header-text'>ABOUT</h6>
           <h1>About me:</h1>
           <img class='about_image' src='fishing.jpg' alt='fishing'>
-          <div data-aos='fade-up-right' class='articles'>
+          <div class='articles'>
             <article class='about_container' id='about_container_1'>
               <p style='margin-top: 20px; margin-left:10px; margin-right:10px; font-size: 1.2rem;'>I'm Peter, an aspiring Software Engineer at 
                 LSU. I graduate in May 2026 with a B.S in Computer Science. In my free time I powerlift with friends, go fishing at grand isle, 
@@ -238,12 +238,12 @@
     <section id='experience' class='full-height px-lg-5'>
       <div class='container'>
         <div class='row'>
-          <div data-aos='fade-right'>
+          <div>
             <h6 class='header-text'>EXPERIENCE</h6>
               <h1>My Experience:</h1>
               <div class='display'>
                 <div class='article-container'>    
-                  <div data-aos='fade-right'>
+                  <div>
                     <article class='project-card d-flex flex-column flex-md-row align-items-center' style='padding: 16px;'>
                       <div class='left-article col-12 col-md-6' style='font-weight: 700;'>
                         <div class="row" style='padding: 0; margin: 0;'>
@@ -283,7 +283,7 @@
                       </div>
                     </article>
                   </div>  
-                  <div data-aos='fade-right'>
+                  <div>
                     <article class='project-card d-flex flex-column flex-md-row align-items-center'>
                       <div class='left-article col-12 col-md-6' style='font-weight: 700;'>
                         <div class="row" style='padding: 0; margin: 0;'>
