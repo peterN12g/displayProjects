@@ -1,3 +1,9 @@
+<script>
+  function openResume(){
+      window.open('Resume.pdf', '_blank')
+  }
+</script>
+
 <body data-bs-spy='scroll' data-bs-target='.navbar' data-bs-offset='50'>
   <!-- NAVBAR -->
   <main>
@@ -42,11 +48,14 @@
             <p class='lead mt-2 mb-4'>
               I am Peter, an aspiring Software Engineer at LSU graduating in May 2026.
             </p>
-            <p class='intro-flex'>
-              <a href='#projects' class='btn btn-brand me-3'>Explore my Projects</a>
+            <div style='display: flex; flex-direction: row;'>
+              <p style='display: flex; flex-direction: column; width: 35%;'>
+                <a href='#projects' class='btn btn-brand me-3'>Explore my Projects</a>
+                <button class='btn' style='color: white; border-color: var(--color-brand); border-width: 3px; margin-top: 10px; margin-right: 1rem;' on:click={openResume}>View my Resume</button>
+              </p>
               <!-- svelte-ignore a11y-missing-attribute -->
               <a class='email-link'>Contact: pngu123@lsu.edu</a>
-            </p>
+              </div>
           </div>
         </div>
       </div>
