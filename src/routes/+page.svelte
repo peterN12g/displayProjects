@@ -48,13 +48,11 @@
             <p class='lead mt-2 mb-4'>
               I am Peter, an aspiring Software Engineer at LSU graduating in May 2026.
             </p>
-            <div style='display: flex; flex-direction: row;'>
-              <p style='display: flex; flex-direction: column; width: 35%;'>
+            <div>
+              <p class='intro-flex'>
                 <a href='#projects' class='btn btn-brand me-3'>Explore my Projects</a>
-                <button class='btn' style='color: white; border-color: var(--color-brand); border-width: 3px; margin-top: 10px; margin-right: 1rem;' on:click={openResume}>View my Resume</button>
+                <button class='btn' style='color: white; border-color: var(--color-brand);' on:click={openResume}>View my Resume</button>
               </p>
-              <!-- svelte-ignore a11y-missing-attribute -->
-              <a class='email-link'>Contact: pngu123@lsu.edu</a>
               </div>
           </div>
         </div>
@@ -329,7 +327,8 @@
                     </article>
                     <h1 class='contact-me'>Get in Touch</h1>
                     <hr style='max-width:30%; margin-left: auto; margin-right: auto;'>
-                    <h1 class='contact-me' style='font-size: xx-large;'>pngu123@lsu.edu</h1>
+                    <h1 class='contact-me-2'>pngu123@lsu.edu</h1>
+                    <div class='links'>
                     <a href='https://www.linkedin.com/in/peter-nguyen123/' target='_blank'>
                       <svg style='width: 4%; margin-left:45%; padding: 5px;'role="img" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin-in" class="svg-inline--fa fa-linkedin-in fa-2x" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                         <path fill="currentColor" d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69
@@ -343,6 +342,7 @@
                         </path>
                       </svg>
                     </a>
+                  </div>
                   </div>
                 </div>
               </div>
@@ -383,6 +383,11 @@
   #content-wrapper {
   padding-left: var(--sidbar-width);
   }
+  .contact-me-2 {
+    font-size: xx-large;
+    color: var(--color-body);
+    text-align: center;
+  }
 }
 @media (max-width: 991.98px) {
   #content-wrapper {
@@ -395,6 +400,11 @@
   }
   #projects,#about,#experience {
     align-items: center;
+  }
+  .contact-me-2 {
+    font-size: xx-large;
+    color: var(--color-body);
+    text-align: center;
   }
 }
 .navbar-brand img {
@@ -419,23 +429,7 @@
   color: var(--color-base);
   border-color: var(--color-brand);
 }
-.email-link {
-  font-weight: 700;
-  position: relative;
-}
-.email-link::after {
-  content: '';
-  width: 0;
-  height: 2px;
-  background-color: var(--color-brand);
-  position: absolute;
-  left: 0;
-  top: 110%;
-  transform: all 0.4s;
-}
-.email-link:hover::after {
-  width: 100%;
-}
+
 /*PROJECTS*/
 article {
   flex: auto;
@@ -604,11 +598,13 @@ article a {
   }
 }
 @media (max-width: 439px) {
-  .intro-flex {
-    display: flex;
-    flex-direction: column;
+  .contact-me-2 {
+    font-size: large;
+    text-align: center;
+    color: var(--color-body);
   }
 }
+
 @media (max-width: 413px) {
   .about_container {
     font-size: 0.3em;
@@ -616,10 +612,7 @@ article a {
 }
 .contact-me {
   text-align:center; 
-  margin-top: 5px; 
+  margin-top: 10px; 
   color: var(--color-body);
-  max-width: 40%;
-  margin-left: auto;
-  margin-right: auto;
 }
 </style>
