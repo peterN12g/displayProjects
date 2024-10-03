@@ -370,6 +370,33 @@
 .navbar .nav-link:hover {
   color: var(--color-brand);
 }
+@media (min-width: 992px) {
+  .navbar {
+    min-height: 100vh;
+    width: var(--sidbar-width);
+    background: linear-gradient(rgba(3, 63, 71, 0.8), rgba(3, 63, 71, 0.8)),
+    url(/sidebar-img.png);
+    background-size: cover;
+    background-position: center;
+  }
+  /**Add left padding on larger screens*/
+  #content-wrapper {
+  padding-left: var(--sidbar-width);
+  }
+}
+@media (max-width: 991.98px) {
+  #content-wrapper {
+    padding-left: 0;
+    margin-left: 0;
+    width: 100%;
+  }
+  #home {
+    text-align: center;
+  }
+  #projects,#about,#experience {
+    align-items: center;
+  }
+}
 .navbar-brand img {
   border: 8px solid var(--color-body);
 }
@@ -613,17 +640,9 @@ article a {
   }
 }
 @media (max-width: 439px) {
-  .contact-me-2 {
-    font-size: large;
-    text-align: center;
-    color: var(--color-body);
-  }
-  .btn {
-    width: 80%;
-    margin-top: 10px;
-  }
-  #projects {
-    width: 80%;
+  .intro-flex {
+    display: flex;
+    flex-direction: column;
   }
 }
 
