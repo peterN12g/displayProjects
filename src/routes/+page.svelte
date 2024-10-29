@@ -173,7 +173,7 @@
           <img class='about_image' src='fishing.jpg' alt='fishing'>
           <div class='articles'>
             <article class='about_container' id='about_container_1'>
-              <p style='margin-top: 20px; margin-left:10px; margin-right:10px; font-size: 1.2rem;'>I'm Peter, an aspiring Software Engineer at 
+              <p style='margin-top: 8%; margin-left:10px; margin-right:10px;'>I'm Peter, an aspiring Software Engineer at 
                 LSU. I graduate in May 2026 with a B.S in Computer Science. In my free time I powerlift with friends, go fishing at grand isle, 
                 and program to relax my mind. I began programming with Java, though I've become accustomed to HTML/CSS, JavaScript, and Python, 
                 which is my current preferred coding language. That's it about me for now, take time to take a look at my resume or projects to see 
@@ -251,7 +251,7 @@
               <div class='display'>
                 <div class='article-container'>    
                   <div>
-                    <article class='project-card d-flex flex-column flex-md-row align-items-center' style='padding: 16px;'>
+                    <article class='project-card d-flex flex-column flex-md-row align-items-center' style='padding: 50px;'>
                       <div class='left-article col-12 col-md-6' style='font-weight: 700;'>
                         <div class="row" style='padding: 0; margin: 0;'>
                           <div class="col-6 text-start">
@@ -579,9 +579,6 @@ article a {
   .about_container {
     font-size: 0.6em;
   }
-  #about_container_1 {
-    font-size: 0.1rem;
-  }
   .btn {
     margin-left: 1em;
   }
@@ -632,11 +629,24 @@ article a {
 @media (max-width: 768px) {
   .about_container {
     font-size: 0.5em;
+    width: 100%;
+  }
+  .articles {
+    flex-direction: column;
+    display: flex;
   }
 }
 @media (max-width: 488px) {
   .about_container {
     font-size: 0.4em;
+    width: 100%
+  }
+  .btn {
+    margin-top: 1em;
+  }
+  .articles {
+  flex-direction: column;
+  display: flex;
   }
 }
 @media (max-width: 439px) {
@@ -644,11 +654,25 @@ article a {
     display: flex;
     flex-direction: column;
   }
+  .btn {
+    margin-top: 1em;
+  }
 }
 
 @media (max-width: 413px) {
   .about_container {
     font-size: 0.3em;
+  }
+  .btn {
+    margin-top: 1em;
+  }
+  #about_container_1 {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 280px) {
+  #about_container_1 {
+    font-size: 0.6rem;
   }
 }
 .contact-me {
