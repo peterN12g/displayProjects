@@ -82,11 +82,11 @@
                             <p>AniFinder is an AI-powered Anime generator based on the user's preferences. The generator is powered by Google's AI, Gemini Pro. The prompts include an anime genre and reference anime to generate a similar anime the user may enjoy.</p>
                             <footer>
                               <a href='https://github.com/peterN12g/anime' class='github' target='_blank'><i class='bi bi-github' style='font-size: 30px;'></i></a>
-                              <a href='https://anifinder.peternguyen.tech/' target='_blank'><i class='bi bi-browser-chrome' style='font-size: 30px;'></i></a>
+                              <a href='https://anifinder.peternguyen.me/' target='_blank'><i class='bi bi-browser-chrome' style='font-size: 30px;'></i></a>
                             </footer>
                           </div>
                           <div class='right-article col-12 col-md-6'>
-                            <a href='https://anifinder.peternguyen.tech/' target='_blank'><img class='article-img' src='anifind.png' alt='anifinder' /></a>
+                            <a href='https://anifinder.peternguyen.me/' target='_blank'><img class='article-img' src='anifind.png' alt='anifinder' /></a>
                           </div>
                         </article>
                       </div>  
@@ -105,11 +105,11 @@
                             <p>A Python-based web scraper focused on GymShark products. The server is hosted using Python Flask, with Caddy used to reverse proxy over HTTPS. The backend Python server provides data via an API endpoint. The frontend, built with React, displays the information on a webpage and includes a Progressive Web App (PWA) that sends browser notifications through a service worker.</p>
                             <footer>
                               <a href='https://github.com/peterN12g/GymShark-Scraper' target='_blank'><i class='bi bi-github' style='font-size: 30px;'></i></a>
-                              <a href='https://gymshark-scraper.peternguyen.tech/' target='_blank'><i class='bi bi-browser-chrome' style='font-size: 30px;'></i></a>
+                              <a href='https://gymshark-scraper.peternguyen.me/' target='_blank'><i class='bi bi-browser-chrome' style='font-size: 30px;'></i></a>
                             </footer>
                           </div>
                           <div class='right-article col-12 col-md-6'>
-                            <a href='https://gymshark-scraper.peternguyen.tech/' target='_blank'><img class='article-img' src='gymscrape.png' alt='gymscraper'/></a>
+                            <a href='https://gymshark-scraper.peternguyen.me/' target='_blank'><img class='article-img' src='gymscrape.png' alt='gymscraper'/></a>
                           </div>
                         </article>
                         </div>
@@ -127,11 +127,11 @@
                               <p>A simple weightlifting warmup calculator to help lifters work up to their personal best attempt safely. The calculator works seamlessly on mobile as a Progressive Web App (PWA) for user convenience.</p>
                               <footer>
                                 <a href='https://github.com/peterN12g/warmupCalc' target='_blank'><i class='bi bi-github' style='font-size: 30px;'></i></a>
-                                <a href='https://warmup.peternguyen.tech' target='_blank'><i class='bi bi-browser-chrome' style='font-size: 30px;'></i></a>
+                                <a href='https://warmup.peternguyen.me' target='_blank'><i class='bi bi-browser-chrome' style='font-size: 30px;'></i></a>
                               </footer>
                             </div>
                             <div class='right-article col-12 col-md-6'>
-                              <a href='https://warmup.peternguyen.tech/' target='_blank'><img class='article-img' src='warmup.png' alt='warmup'/></a>
+                              <a href='https://warmup.peternguyen.me/' target='_blank'><img class='article-img' src='warmup.png' alt='warmup'/></a>
                             </div>
                           </article>
                         </div>
