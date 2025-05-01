@@ -105,11 +105,10 @@
                             <p>A Python-based web scraper focused on GymShark products. The server is hosted using Python Flask, with Caddy used to reverse proxy over HTTPS. The backend Python server provides data via an API endpoint. The frontend, built with React, displays the information on a webpage and includes a Progressive Web App (PWA) that sends browser notifications through a service worker.</p>
                             <footer>
                               <a href='https://github.com/peterN12g/GymShark-Scraper' target='_blank'><i class='bi bi-github' style='font-size: 30px;'></i></a>
-                              <a href='https://gymshark-scraper.peternguyen.me/' target='_blank'><i class='bi bi-browser-chrome' style='font-size: 30px;'></i></a>
                             </footer>
                           </div>
                           <div class='right-article col-12 col-md-6'>
-                            <a href='https://gymshark-scraper.peternguyen.me/' target='_blank'><img class='article-img' src='gymscrape.png' alt='gymscraper'/></a>
+                            <img class= 'article-img' src='gymscrape.png' alt='gymscraper'>
                           </div>
                         </article>
                         </div>
